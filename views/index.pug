@@ -1,0 +1,19 @@
+doctype html
+
+html(lang="en")
+  head
+    title.
+        React Isomorphic Server Side Rendering
+
+    link(href='/styles.css', rel="stylesheet")
+    link(href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css', rel="stylesheet")
+    meta(charSet="utf-8")
+
+  body
+    div(id='react-main-mount')!= reactOutput
+
+    //script(src='http://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js')
+    script(src='/maint.js')
+    
