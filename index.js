@@ -7,7 +7,11 @@ port = 4444,
 bodyParser = require('body-parser');
 
 // Make sure to include the JSX transpiler
-require("babel-register");
+
+require("babel-register")({
+  presets: [ 'es2015', 'react' ],
+  only: '*.jsx'
+});
 
 //set UA for material-ui server side rendering
 app.use(function(req, res, next) {
@@ -24,6 +28,7 @@ app.set('views', path.join(__dirname, 'views'));
 
 // set up pug for templating. You can use whatever
 app.set('view engine', 'pug');
+
 
 // Set up Routes for the application
 require('./app/routes/core-routes.js')(app);

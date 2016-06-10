@@ -17,10 +17,9 @@ var ReactApp = React.createClass({
         return (
               <div id="table-area">
               <Griddle results={fakeData}
-                columnMetadata={columnMeta}
+                columnMetadata={columnMeta} 
                 resultsPerPage={resultsPerPage}
                 tableClassName="table"/>
-
           </div>
         )
       }
