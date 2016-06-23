@@ -1,5 +1,5 @@
 # React-Isomorphic
---------------------------------
+
 
 ##### Simple example to start with isomorphic rendering using ReactJS
 
@@ -16,6 +16,7 @@ Clone the project
 `cd` to root directory
 
 `npm install`
+
 `node index.js`
 
 and visit the url
