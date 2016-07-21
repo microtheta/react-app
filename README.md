@@ -17,7 +17,7 @@ Clone the project
 
 `npm install`
 
-`node index.js`
+`gulp`
 
 and visit the url
 
