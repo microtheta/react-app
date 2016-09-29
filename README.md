@@ -1,7 +1,7 @@
 # React-Isomorphic
 
 
-##### Simple example to start with isomorphic rendering using ReactJS
+##### Simple example to start with ReactJS
 
 - React
 - Node
