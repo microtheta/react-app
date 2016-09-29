@@ -1,4 +1,4 @@
-# React-Isomorphic
+# React-App
 
 
 ##### Simple example to start with ReactJS
